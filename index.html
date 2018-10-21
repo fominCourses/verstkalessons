@@ -9,10 +9,411 @@
 </head>
 
 <body>
+	<header class="header">
 
-	<h1>Привет, меня зовут Павел!</h1>
-	<p>Я учусь верстке</p>
+	<section class="header_blue-line">
+		<section class="header_settings">
+			<form action="">
+				<label for="Lang">
+					Language
+				</label>
+				<select name="Lang" id="Lang">
+					<option value="">English</option>
+					<option value="">Russian</option>
+				</select>
+				<label for="Curr">
+					Currency
+				</label>
+				<select name="Curr" id="Curr">
+					<option value="">USD</option>
+					<option value="">RUR</option>
+				</select>
+			</form>
+		</section>
+		<nav class="blue-line_menu">
+			<ul>
+				<li>Account</li>
+				<li>Wishlist</li>
+				<li>Checkout</li>
+				<li>Log In</li>
+				<li>Sign Up</li>
+			</ul>
+		</nav>
+	</section>
+	<section class="header_main">
+		<section class="header_logo">
+			<img src="" alt="LEO SHOP">
+		</section>
+		<nav class="header_main-menu">
+			<ul>
+				<li>Home</li>
+				<li>Women</li>
+				<li>Men</li>
+				<li>Other</li>
+				<li>Purchase</li>
+			</ul>
+		</nav>
+		<section class="header_main-form">
+			<form action="">
+				<input type="text" placeholder="Search..">
+				<button class="header_main-button">
+					
+				</button>
+				<button class="header_main-button">
 
+				</button>
+			</form>
+			<div class="header_main-purchases">
+				CART (0)
+			</div>
+		</section>
+	</section>
+	<section class="header_slider">
+		<form action="">
+			<button class="header_slider-button">
+				
+			</button>
+			<section class="header_slider-text">
+				<div class="top_text">
+					Aluminium Club
+				</div>
+				<div class="bottom_text">
+					Experience Ray-Ban
+				</div>
+			</section>
+			<button class="header_slider-button">
+				
+			</button>
+		</form>
+	</section>
+
+	</header>
+
+	<main>
+		<h1 hidden>Каталог</h1>
+		<section class="catalog">
+			<h2>
+				Featured Products
+			</h2>
+		</section>
+
+		<section class="catalog__items">
+			<article class="catalog_item">
+				<div class="catalog_item-label catalog_item-label__new">
+					New
+				</div>
+				<div class="catalog_item-description">
+					<img src="" alt="">
+					<p>Lorem Ipsum is simply.</p>
+					<p>$388.00</p>
+				</div>
+				<button	class="catalog_item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog_item">
+				<div class="catalog_item-description">
+					<img src="" alt="">
+					<p>Nullam vestibulum.</p>
+					<p>$90.00</p>
+				</div>
+				<button	class="catalog_item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog_item">
+				<div class="catalog_item-label catalog_item-label__sale">
+					Sale
+				</div>
+				<div class="catalog_item-description">
+					<img src="" alt="">
+					<p>Donec et lorem suscipit.</p>
+					<p><s>$460</s>$300.00</p>
+				</div>
+				<button	class="catalog_item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog_item">
+				<div class="catalog_item-description">
+					<img src="" alt="">
+					<p>Curabitur pretium dui.</p>
+					<p>$180.00</p>
+				</div>
+				<button	class="catalog_item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog_item">
+				<div class="catalog_item-label catalog_item-label__new">
+					New
+				</div>
+				<div class="catalog_item-description">
+					<img src="" alt="">
+					<p>Lorem Ipsum is simply</p>
+					<p>$278.00</p>
+				</div>
+				<button	class="catalog_item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog_item">
+				<div class="catalog_item-description">
+					<img src="" alt="">
+					<p>Sed tempus tellus .</p>
+					<p>$378.00</p>
+				</div>
+				<button	class="catalog_item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog_item">
+				<div class="catalog_item-label catalog_item-label__new">
+					New
+				</div>
+				<div class="catalog_item-description">
+					<img src="" alt="">
+					<p>Lorem Ipsum is simply </p>
+					<p>$500.00</p>
+				</div>
+				<button	class="catalog_item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog_item">
+				<div class="catalog_item-label catalog_item-label__sale">
+					Sale
+				</div>
+				<div class="catalog_item-description">
+					<img src="" alt="">
+					<p>Etiam egestas velit.</p>
+					<p><s>$460</s> $200.00</p>
+				</div>
+				<button	class="catalog_item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog_item">
+				<div class="catalog_item-label catalog_item-label__new">
+					New
+				</div>
+				<div class="catalog_item-description">
+					<img src="" alt="">
+					<p>Mauris viverra magna.</p>
+					<p>$370.00</p>
+				</div>
+				<button	class="catalog_item-button">
+					Положить в корзину
+				</button>
+			</article>
+		</section>
+
+		<section class="catalog">
+			<h2>
+				Staff Pick
+			</h2>
+		</section>
+
+		<section class="catalog__items">
+			<article class="catalog_item">
+				<div class="catalog_item-label catalog_item-label__new">
+					New
+				</div>
+				<div class="catalog_item-description">
+					<img src="" alt="">
+					<p>Lorem Ipsum is simply</p>
+					<p>$378.00</p>
+				</div>
+				<button	class="catalog_item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog_item">
+				<div class="catalog_item-description">
+					<img src="" alt="">
+					<p>Mauris viverra magna.</p>
+					<p>$278.00</p>
+				</div>
+				<button	class="catalog_item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog_item">
+				<div class="catalog_item-label catalog_item-label__new">
+					New
+				</div>
+				<div class="catalog_item-description">
+					<img src="" alt="">
+					<p>Curabitur pretium dui.</p>
+					<p>$188.00</p>
+				</div>
+				<button	class="catalog_item-button">
+					Положить в корзину
+				</button>
+			</article>
+		</section>
+
+		<section class="catalog">
+			<h2>
+				New Products
+			</h2>
+		</section>
+
+		<section class="catalog__items">
+			<article class="catalog_item">
+				<div class="catalog_item-label catalog_item-label__new">
+					New
+				</div>
+				<div class="catalog_item-description">
+					<img src="" alt="">
+					<p>Sed tempus tellus.</p>
+					<p>$90.00</p>
+				</div>
+				<button	class="catalog_item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog_item">
+				<div class="catalog_item-label catalog_item-label__new">
+					New
+				</div>
+				<div class="catalog_item-description">
+					<img src="" alt="">
+					<p>Nulla accumsan lect.</p>
+					<p>$60.00</p>
+				</div>
+				<button	class="catalog_item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog_item">
+				<div class="catalog_item-label catalog_item-label__new">
+					New
+				</div>
+				<div class="catalog_item-description">
+					<img src="" alt="">
+					<p>Lorem Ipsum is simply</p>
+					<p>$378.00</p>
+				</div>
+				<button	class="catalog_item-button">
+					Положить в корзину
+				</button>
+			</article>
+		</section>
+
+		<section class="sidebar">
+			<section class="sidebar_banner">
+				<h2>
+					Featured<br/> Glass
+				</h2>
+				<a href="" class="sidebar_banner-button">
+					Check It Out
+				</a>
+			</section>
+			<section class="sidebar_subscribe">
+				<h2>
+					Newsletters<br/> Signup
+				</h2>
+				<p>
+					Lorem ipsum dolor sit amen, dolor imun ra adlip 
+				</p>
+				<form action="">
+					<input type="text" name="email" id=""/>
+					<button type="submit"></button>
+				</form>
+			</section>
+		</section>
+	</main>
+
+	<footer class="footer">
+
+	<section class="footer_line">
+		<div class="footer_line_item">
+			<img src="" alt="">
+			Free Shipping on orders over $100
+		</div>
+		<div class="footer_line_item">
+			<img src="" alt="">
+			call us! toLl free- 409-8888-0099 
+		</div>
+	</section>
+	<section class="footer_menu">
+		<section class="footer_menu_item">
+			<h3>Facebook</h3>
+			<section class="footer_menu-item-content">
+				<form action="">
+					20000 Members
+					<button type="submit">Like</button>
+				</form>
+				<section class="facebook_photos">
+					<img src="" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
+					<img src="" alt="">
+				</section>
+				facebook Social plugin
+			</section>
+		</section>
+		<section class="footer_menu_item">
+			<h3>From Twitter</h3>
+			<section class="footer_menu_item-content">
+				<article class="twitter_tweet">
+					<img src="" alt="">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+				</article>
+				<article class="twitter_tweet">
+					<img src="" alt="">
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the</p>
+				</article>
+			</section>
+		</section>
+		<section class="footer_menu_item">
+			<h3>Information</h3>
+			<section class="footer_menu_item-content">
+				<ul>
+					<li>Sed ultrices purus non.</li>
+					<li>sodales sodales.</li>
+					<li>Curabitur pretium dui vitae.</li>
+					<li>Donec gravida mi in nisl </li>
+					<li>faucibus leo condimentum.</li>
+					<li>Donec et lorem suscipit.</li>
+				</ul>
+			</section>
+		</section>
+		<section class="footer_menu_item">
+			<h3>Contact us</h3>
+			<section class="footer_menu_item-content">
+				<p>Leo Store<br/>Leopards media KVM Rpad, 4590GH</p>
+				<a href="tel:+1 489-888-0099">tel:+1 489-888-0099</a> 
+				<a href="mailto:mail@email.com">mail@email.com</a>
+			</section>
+			<section class="contact-buttons">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+			</section>
+		</section>
+	</section>
+	<section class="footer_blue-line">
+		<section class="copyright">
+			© Copyright 2013 Css Author, All Rights Reserved.
+		</section>
+		<nav class="blue-line_menu">
+			<ul>
+				<li>About Us</li>
+				<li>Delivery &amp; Returns</li>
+				<li>Terms &amp; Conditions</li>
+			</ul>
+		</nav>	
+	</section>
+
+	</footer>
+	
 </body>
 
 </html>
