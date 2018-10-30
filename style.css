@@ -10,7 +10,13 @@ body {
 .header__blue-line {
     background: #4cb1ca;
     font-size: 13px;
-    padding: 0 188px;
+}
+
+.blue_line {
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .blue-line__settings {
