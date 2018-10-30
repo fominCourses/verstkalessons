@@ -6,13 +6,420 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Уроки по веб-верстки</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet"> 
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+	<header class="header">
 
-	<h1>Привет, меня зовут Павел!</h1>
-	<p>Я учусь верстке</p>
+	<section class="header__blue-line">
+		<section class="blue-line__settings">
+			<form action="">
+				<label for="Lang">
+					Language
+				</label>
+				<select name="Lang" id="Lang">
+					<option value="">English</option>
+					<option value="">Russian</option>
+				</select>
+				<label for="Curr">
+					Currency
+				</label>
+				<select name="Curr" id="Curr">
+					<option value="">USD</option>
+					<option value="">RUR</option>
+				</select>
+			</form>
+		</section>
+		<nav class="blue-line__menu">
+			<ul>
+				<li>Account</li>
+				<li>Wishlist</li>
+				<li>Checkout</li>
+				<li>Log In</li>
+				<li>Sign Up</li>
+			</ul>
+		</nav>
+	</section>
+	<section class="header__main">
+		<section class="header__main-logo">
+			<img src="" alt="Leo Shop">
+		</section>
+		<nav class="header__main-menu">
+			<ul>
+				<li>Home</li>
+				<li>Women</li>
+				<li>Men</li>
+				<li>Other</li>
+				<li>Purchase</li>
+			</ul>
+		</nav>
+		<section class="header__main-form">
+			<form action="">
+				<input type="text" placeholder="Search..">
+				<button class="header_main-button">
+					
+				</button>
+				<button class="header__main-button">
 
+				</button>
+			</form>
+			<a href="" class="header__main-purchases">
+				Cart (0)
+			</a>
+		</section>
+	</section>
+	<section class="header__slider">
+		
+		<button class="header__slider-button">
+				
+		</button>
+		<section class="header__slider-text">
+			<p class="header__slider_top-text">
+				Aluminium Club
+			</p>
+			<p class="header__slider_bottom-text">
+				Experience Ray-Ban
+			</p>
+		</section>
+		<button class="header_slider-button">
+				
+		</button>
+		
+	</section>
+
+	</header>
+
+	<main>
+		<h1 hidden>Каталог</h1>
+		<section class="catalog">
+			<h2>
+				Featured Products
+			</h2>
+		</section>
+
+		<section class="catalog__items">
+			<article class="catalog__item">
+				<div class="catalog__item-label catalog__item-label_new">
+					New
+				</div>
+				<div class="catalog__item-info">
+					<img src="https://via.placeholder.com/216x228" alt="">
+					<p class="catalog__item-description">Lorem Ipsum is simply.</p>
+					<p class="catalog__item-price">$388.00</p>
+				</div>
+				<button	class="catalog__item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog__item">
+				<div class="catalog__item-info">
+					<img src="https://via.placeholder.com/216x228" alt="">
+					<p class="catalog__item-description">Nullam vestibulum.</p>
+					<p class="catalog__item-price">$90.00</p>
+				</div>
+				<button	class="catalog__item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog__item">
+				<div class="catalog__item-label catalog__item-label__sale">
+					Sale
+				</div>
+				<div class="catalog__item-info">
+					<img src="https://via.placeholder.com/216x228" alt="">
+					<p class="catalog__item-description">Donec et lorem suscipit.</p>
+					<p class="catalog__item-price"><s>$460</s>$300.00</p>
+				</div>
+				<button	class="catalog__item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog__item">
+				<div class="catalog__item-info">
+					<img src="https://via.placeholder.com/216x228" alt="">
+					<p class="catalog__item-description">Curabitur pretium dui.</p>
+					<p class="catalog__item-price">$180.00</p>
+				</div>
+				<button	class="catalog__item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog__item">
+				<div class="catalog__item-label catalog__item-label_new">
+					New
+				</div>
+				<div class="catalog__item-info">
+					<img src="https://via.placeholder.com/216x228" alt="">
+					<p class="catalog__item-description">Lorem Ipsum is simply</p>
+					<p class="catalog__item-price">$278.00</p>
+				</div>
+				<button	class="catalog__item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog__item">
+				<div class="catalog__item-info">
+					<img src="https://via.placeholder.com/216x228" alt="">
+					<p class="catalog__item-description">Sed tempus tellus .</p>
+					<p class="catalog__item-price">$378.00</p>
+				</div>
+				<button	class="catalog__item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog__item">
+				<div class="catalog__item-label catalog__item-label_new">
+					New
+				</div>
+				<div class="catalog__item-info">
+					<img src="https://via.placeholder.com/216x228" alt="">
+					<p class="catalog__item-description">Lorem Ipsum is simply </p>
+					<p class="catalog__item-price">$500.00</p>
+				</div>
+				<button	class="catalog__item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog__item">
+				<div class="catalog__item-label catalog__item-label_sale">
+					Sale
+				</div>
+				<div class="catalog__item-info">
+					<img src="https://via.placeholder.com/216x228" alt="">
+					<p class="catalog__item-description">Etiam egestas velit.</p>
+					<p class="catalog__item-price"><s>$460</s> $200.00</p>
+				</div>
+				<button	class="catalog__item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog__item">
+				<div class="catalog__item-label catalog__item-label_new">
+					New
+				</div>
+				<div class="catalog__item-info">
+					<img src="https://via.placeholder.com/216x228" alt="">
+					<p class="catalog__item-description">Mauris viverra magna.</p>
+					<p class="catalog__item-price">$370.00</p>
+				</div>
+				<button	class="catalog__item-button">
+					Положить в корзину
+				</button>
+			</article>
+		</section>
+
+		<section class="catalog">
+			<h2>
+				Staff Pick
+			</h2>
+		</section>
+
+		<section class="catalog__items">
+			<article class="catalog__item">
+				<div class="catalog__item-label catalog__item-label_new">
+					New
+				</div>
+				<div class="catalog__item-info">
+					<img src="https://via.placeholder.com/216x228" alt="">
+					<p class="catalog__item-description">Lorem Ipsum is simply</p>
+					<p class="catalog__item-price">$378.00</p>
+				</div>
+				<button	class="catalog__item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog__item">
+				<div class="catalog__item-info">
+					<img src="https://via.placeholder.com/216x228" alt="">
+					<p class="catalog__item-description">Mauris viverra magna.</p>
+					<p class="catalog__item-price">$278.00</p>
+				</div>
+				<button	class="catalog__item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog__item">
+				<div class="catalog__item-label catalog__item-label_new">
+					New
+				</div>
+				<div class="catalog__item-info">
+					<img src="https://via.placeholder.com/216x228" alt="">
+					<p class="catalog__item-description">Curabitur pretium dui.</p>
+					<p class="catalog__item-price">$188.00</p>
+				</div>
+				<button	class="catalog__item-button">
+					Положить в корзину
+				</button>
+			</article>
+		</section>
+
+		<section class="catalog">
+			<h2>
+				New Products
+			</h2>
+		</section>
+
+		<section class="catalog__items">
+			<article class="catalog__item">
+				<div class="catalog__item-label catalog__item-label_new">
+					New
+				</div>
+				<div class="catalog__item-info">
+					<img src="https://via.placeholder.com/216x228" alt="">
+					<p class="catalog__item-description">Sed tempus tellus.</p>
+					<p class="catalog__item-price">$90.00</p>
+				</div>
+				<button	class="catalog__item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog__item">
+				<div class="catalog__item-label catalog__item-label_new">
+					New
+				</div>
+				<div class="catalog__item-info">
+					<img src="https://via.placeholder.com/216x228" alt="">
+					<p class="catalog__item-description">Nulla accumsan lect.</p>
+					<p class="catalog__item-price">$60.00</p>
+				</div>
+				<button	class="catalog__item-button">
+					Положить в корзину
+				</button>
+			</article>
+			<article class="catalog__item">
+				<div class="catalog__item-label catalog__item-label_new">
+					New
+				</div>
+				<div class="catalog__item-info">
+					<img src="https://via.placeholder.com/216x228" alt="">
+					<p class="catalog__item-description">Lorem Ipsum is simply</p>
+					<p class="catalog__item-price">$378.00</p>
+				</div>
+				<button	class="catalog__item-button">
+					Положить в корзину
+				</button>
+			</article>
+		</section>
+
+		<section class="sidebar">
+			<section class="sidebar__banner">
+				<h2>
+					Featured<br/>Glass
+				</h2>
+				<a href="" class="sidebar__banner_button">
+					Check It Out
+				</a>
+			</section>
+			<section class="sidebar__subscribe">
+				<h2>
+					Newsletters<br/>Signup
+				</h2>
+				<p>
+					Lorem ipsum dolor sit amen, dolor imun ra adlip 
+				</p>
+				<form action="">
+					<input type="text" name="email" id=""/>
+					<button type="submit"></button>
+				</form>
+			</section>
+		</section>
+	</main>
+
+	<footer class="footer">
+
+	<section class="footer__line">
+		<div class="footer__line-item">
+			<img src="" alt="">
+			Free Shipping on orders over $100
+		</div>
+		<div class="footer__line-item">
+			<img src="" alt="">
+			call us! toLl free- 409-8888-0099 
+		</div>
+	</section>
+	<section class="footer__menu">
+		<section class="footer__menu-item">
+			<h3>Facebook</h3>
+			<section class="footer__menu-item_facebook">
+				<form action="">
+					20000 Members
+					<button type="submit">Like</button>
+				</form>
+				<section class="facebook-photos">
+					<img src="https://via.placeholder.com/50x50" alt="">
+					<img src="https://via.placeholder.com/50x50" alt="">
+					<img src="https://via.placeholder.com/50x50" alt="">
+					<img src="https://via.placeholder.com/50x50" alt="">
+					<img src="https://via.placeholder.com/50x50" alt="">
+					<img src="https://via.placeholder.com/50x50" alt="">
+					<img src="https://via.placeholder.com/50x50" alt="">
+					<img src="https://via.placeholder.com/50x50" alt="">
+				</section>
+				facebook Social plugin
+			</section>
+		</section>
+		<section class="footer__menu-item">
+			<h3>From Twitter</h3>
+			<section class="footer_menu-item_twitter">
+				<article class="twitter-tweet">
+					<img src="" alt="">
+					<p>Lorem Ipsum is simply dummy text of the printing and <a href="#">typesetting industry.</a> 
+						<a href="#">Lorem Ipsum</a> has been the</p>
+				</article>
+				<article class="twitter-tweet">
+					<img src="" alt="">
+					<p>Lorem Ipsum is simply dummy text of the printing and <a href="#">typesetting industry.</a> 
+						<a href="#">Lorem Ipsum</a> has been the</p>
+				</article>
+			</section>
+		</section>
+		<section class="footer__menu-item">
+			<h3>Information</h3>
+			<section class="footer__menu-item_information">
+				<ul>
+					<li>Sed ultrices purus non.</li>
+					<li>sodales sodales.</li>
+					<li>Curabitur pretium dui vitae.</li>
+					<li>Donec gravida mi in nisl </li>
+					<li>faucibus leo condimentum.</li>
+					<li>Donec et lorem suscipit.</li>
+				</ul>
+			</section>
+		</section>
+		<section class="footer__menu-item">
+			<h3>Contact us</h3>
+			<section class="footer__menu-item_contact">
+				<p>Leo Store<br/>Leopards media KVM Rpad, 4590GH</p>
+				<a href="tel:+1489-888-0099">tel:+1 489-888-0099</a> 
+				<a href="mailto:mail@email.com">mail@email.com</a>
+			</section>
+			<section class="contact-buttons">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+			</section>
+		</section>
+	</section>
+	<section class="footer__blue-line">
+		<p class="copyright">
+			© Copyright 2013 Css Author, All Rights Reserved.
+		</p>
+		<nav class="blue-line__menu">
+			<ul>
+				<li>About Us</li>
+				<li>Delivery &amp; Returns</li>
+				<li>Terms &amp; Conditions</li>
+				<li>Contacts</li>
+			</ul>
+		</nav>	
+	</section>
+
+	</footer>
+	
 </body>
 
 </html>
