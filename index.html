@@ -6,13 +6,486 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Уроки по веб-верстки</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=cyrillic" rel="stylesheet"> 
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+	<header class="header">
 
-	<h1>Привет, меня зовут Павел!</h1>
-	<p>Я учу верстке</p>
+	<section class="header__blue-line-background">
+		<section class="header__blue-line">
+				<section class="blue-line__settings">
+						<form action="">
+							<label for="Lang">
+								Language
+							</label>
+							<select name="Lang" id="Lang">
+								<option value="">English</option>
+								<option value="">Russian</option>
+							</select>
+							<label for="Curr">
+								Currency
+							</label>
+							<select name="Curr" id="Curr">
+								<option value="">USD</option>
+								<option value="">RUR</option>
+							</select>
+						</form>
+					</section>
+					<nav class="blue-line__menu">
+						<ul>
+							<li>Account</li>
+							<li>Wishlist</li>
+							<li>Checkout</li>
+							<li>Log In</li>
+							<li>Sign Up</li>
+						</ul>
+					</nav>
+		</section>		
+	</section>
+	<section class="header__main-background">
+		<section class="header__main">
+			<span class="header__main-logo">
+					Leo Shop
+			</span>
+			<nav class="header__main-menu">
+				<ul>
+					<li>Home</li>
+					<li>Women</li>
+					<li>Men</li>
+					<li>Other</li>
+					<li>Purchase</li>
+				</ul>
+			</nav>
+			<section class="header__main-form">
+				<form action="">
+					<input type="text" placeholder="Search..">
+				</form>
+				<div class="header__main-buttons">
+					<div class="header__main-button">
+						<img src="./static/img/bookmark.png" />
+					</div>
+					<div class="header__main-button">
+						<img src="./static/img/cart_min.png" />
+					</div>
+				</div>
+				<a href="" class="header__main-purchases">
+					Cart (0)
+				</a>
+			</section>
+		</section>
+	</section>
+	<section class="header__slider">
+			<div class="slider__controls">
+				<div class="slider__control slider__control_prev"></div>
+				<div class="slider__control slider__control_next"></div>
+			</div>
+			<ul class="slider__content">
+				<li class="slider__item">
+					<img src="./static/img/slide.jpg" alt="Изображение слайдера" width="1400" height="637" />
+					<div class="slider__wrapper">
+						<div class="slider__text">
+							<h2 class="slider__header">ALUMINUM CLUB</h2>
+							<h3 class="slider__subheader">Experience Ray-Ban</h3>
+						</div>
+					</div>
+				</li>
+				<li class="slider__item">
+					<img src="./static/img/slide.jpg" alt="Изображение слайдера" width="1400" height="637" />
+					<div class="slider__wrapper">
+						<div class="slider__text">
+							<h2 class="slider__header">ALUMINUM CLUB</h2>
+							<h3 class="slider__subheader">Experience Ray-Ban</h3>
+						</div>
+					</div>
+				</li>
+				<li class="slider__item">
+					<img src="./static/img/slide.jpg" alt="Изображение слайдера" width="1400" height="637" />
+					<div class="slider__wrapper">
+						<div class="slider__text">
+							<h2 class="slider__header">ALUMINUM CLUB</h2>
+							<h3 class="slider__subheader">Experience Ray-Ban</h3>
+						</div>
+					</div>
+				</li>
+			</ul>
+		
+	</section>
 
+	</header>
+
+	<main class="main">
+		<h1 hidden>Каталог</h1>
+		<section class="catalog">
+			<h2>
+				Featured Products
+			</h2>
+		
+
+			<section class="catalog__items">
+				<article class="catalog__item">
+					<div class="ribbon ribbon_new">
+							<div class="ribbon__inner ribbon__inner_new">
+							</div>
+							<span class="ribbon__text">
+								New
+							</span>
+					</div>
+					<img src="./static/img/01.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Lorem Ipsum is simply.<br/>
+						<span class="catalog__item-price">$388.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+					<img src="./static/img/02.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Nullam vestibulum.<br/>
+						<span class="catalog__item-price">$90.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+						<div class="ribbon ribbon_sale">
+							<div class="ribbon__inner ribbon__inner_sale">
+							</div>
+							<span class="ribbon__text">
+								Sale
+							</span>
+						</div>
+					<img src="./static/img/03.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Donec et lorem suscipit.<br/>
+						<span class="catalog__item-price"><s>$460</s>$300.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+					<img src="./static/img/04.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Curabitur pretium dui.<br/>
+						<span class="catalog__item-price">$180.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+					<img src="./static/img/05.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Lorem Ipsum is simply<br/>
+						<span class="catalog__item-price">$278.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+					<img src="./static/img/06.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Sed tempus tellus .<br/>
+						<span class="catalog__item-price">$378.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+					<div class="ribbon ribbon_new">
+							<div class="ribbon__inner ribbon__inner_new">
+							</div>
+							<span class="ribbon__text">
+								New
+							</span>
+					</div>
+					<img src="./static/img/07.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Lorem Ipsum is simply<br/>
+						<span class="catalog__item-price">$500.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+						<div class="ribbon ribbon_sale">
+							<div class="ribbon__inner ribbon__inner_sale">
+							</div>
+							<span class="ribbon__text">
+								Sale
+							</span>
+						</div>
+					<img src="./static/img/08.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Etiam egestas velit.<br/>
+						<span class="catalog__item-price"><s>$460</s>$200.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+					<div class="ribbon ribbon_new">
+						<div class="ribbon__inner ribbon__inner_new">
+							</div>
+							<span class="ribbon__text">
+								New
+							</span>
+					</div>
+					<img src="./static/img/09.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Mauris viverra magna.<br/>
+						<span class="catalog__item-price">$370.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				
+			</section>
+
+			
+				<h2>
+					Staff Pick
+				</h2>
+			
+
+			<section class="catalog__items">				
+				<article class="catalog__item">
+						<div class="ribbon ribbon_new">
+							<div class="ribbon__inner ribbon__inner_new">
+							</div>
+								<span class="ribbon__text">
+									New
+								</span>
+						</div>
+						<img src="./static/img/09.jpg" alt="">
+						<div class="catalog__item-info">
+						<p class="catalog__item-description">Lorem Ipsum is simply<br/>
+						<span class="catalog__item-price">$378.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+						</div>
+				</article>
+				<article class="catalog__item">
+					<img src="./static/img/05.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Mauris viverra magna.<br/>
+						<span class="catalog__item-price">$278.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+						<div class="ribbon ribbon_new">
+							<div class="ribbon__inner ribbon__inner_new">
+							</div>
+							<span class="ribbon__text">
+								New
+							</span>
+						</div>
+					<img src="./static/img/03.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Curabitur pretium dui.<br/>
+						<span class="catalog__item-price">$188.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+			</section>
+
+			
+				<h2>
+					New Products
+				</h2>
+			
+
+			<section class="catalog__items">
+				<article class="catalog__item">
+					<div class="ribbon ribbon_new">
+						<div class="ribbon__inner ribbon__inner_new">
+							</div>
+							<span class="ribbon__text">
+								New
+							</span>
+					</div>
+					<img src="./static/img/06.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Sed tempus tellus.<br/>
+						<span class="catalog__item-price">$90.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+					<div class="ribbon ribbon_new">
+						<div class="ribbon__inner ribbon__inner_new">
+							</div>
+							<span class="ribbon__text">
+								New
+							</span>
+					</div>
+					<img src="./static/img/03.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Nulla accumsan lect.<br/>
+						<span class="catalog__item-price">$60.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+					<div class="ribbon ribbon_new">
+						<div class="ribbon__inner ribbon__inner_new">
+							</div>
+							<span class="ribbon__text">
+								New
+							</span>
+					</div>
+					<img src="./static/img/04.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Lorem Ipsum is simply<br/>
+						<span class="catalog__item-price">$378.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+			</section>
+
+			
+		</section>
+		<section class="sidebar">
+			<section class="sidebar__banner">
+				<h2>
+					Featured<br/>Glass
+				</h2>
+				<div class="sidebar__banner-image">
+					<a href="" class="sidebar__banner_button">
+						Check It Out
+					</a>					
+				</div>
+			</section>
+			<section class="sidebar__subscribe">
+				<h2>
+					Newsletters<br/>Signup
+				</h2>
+				<p>
+					Lorem ipsum dolor sit amen, dolor imun ra adlip 
+				</p>
+				<form action="">
+					<input type="text" name="email" id=""/>
+					<button type="submit"></button>
+				</form>
+			</section>
+		</section>
+	</main>
+
+	<footer class="footer">
+
+	<section class="footer__line">
+		<div class="footer__line-item">
+			<img src="" alt="">
+			Free Shipping on orders over $100
+		</div>
+		<div class="footer__line-item">
+			<img src="" alt="">
+			call us! toLl free- 409-8888-0099 
+		</div>
+	</section>
+	<section class="footer__menu">
+		<section class="footer__menu-item">
+			<h3>Facebook</h3>
+			<section class="footer__menu-item_facebook">
+				<form action="">
+					20000 Members
+					<button type="submit">Like</button>
+				</form>
+				<section class="facebook-photos">
+					<img src="https://via.placeholder.com/50x50" alt="">
+					<img src="https://via.placeholder.com/50x50" alt="">
+					<img src="https://via.placeholder.com/50x50" alt="">
+					<img src="https://via.placeholder.com/50x50" alt="">
+					<img src="https://via.placeholder.com/50x50" alt="">
+					<img src="https://via.placeholder.com/50x50" alt="">
+					<img src="https://via.placeholder.com/50x50" alt="">
+					<img src="https://via.placeholder.com/50x50" alt="">
+				</section>
+				facebook Social plugin
+			</section>
+		</section>
+		<section class="footer__menu-item">
+			<h3>From Twitter</h3>
+			<section class="footer_menu-item_twitter">
+				<article class="twitter-tweet">
+					<img src="" alt="">
+					<p>Lorem Ipsum is simply dummy text of the printing and <a href="#">typesetting industry.</a> 
+						<a href="#">Lorem Ipsum</a> has been the</p>
+				</article>
+				<article class="twitter-tweet">
+					<img src="" alt="">
+					<p>Lorem Ipsum is simply dummy text of the printing and <a href="#">typesetting industry.</a> 
+						<a href="#">Lorem Ipsum</a> has been the</p>
+				</article>
+			</section>
+		</section>
+		<section class="footer__menu-item">
+			<h3>Information</h3>
+			<section class="footer__menu-item_information">
+				<ul>
+					<li>Sed ultrices purus non.</li>
+					<li>sodales sodales.</li>
+					<li>Curabitur pretium dui vitae.</li>
+					<li>Donec gravida mi in nisl </li>
+					<li>faucibus leo condimentum.</li>
+					<li>Donec et lorem suscipit.</li>
+				</ul>
+			</section>
+		</section>
+		<section class="footer__menu-item">
+			<h3>Contact us</h3>
+			<section class="footer__menu-item_contact">
+				<p>Leo Store<br/>Leopards media KVM Rpad, 4590GH</p>
+				<a href="tel:+1489-888-0099">tel:+1 489-888-0099</a> 
+				<a href="mailto:mail@email.com">mail@email.com</a>
+			</section>
+			<section class="contact-buttons">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+				<img src="" alt="">
+			</section>
+		</section>
+	</section>
+	<section class="footer__blue-line">
+		<p class="copyright">
+			© Copyright 2013 Css Author, All Rights Reserved.
+		</p>
+		<nav class="blue-line__menu">
+			<ul>
+				<li>About Us</li>
+				<li>Delivery &amp; Returns</li>
+				<li>Terms &amp; Conditions</li>
+				<li>Contacts</li>
+			</ul>
+		</nav>	
+	</section>
+
+	</footer>
+	
 </body>
 
 </html>
