@@ -47,9 +47,9 @@
 	</section>
 	<section class="header__main-background">
 		<section class="header__main">
-			<section class="header__main-logo">
-				<img src="" alt="Leo Shop">
-			</section>
+			<span class="header__main-logo">
+					Leo Shop
+			</span>
 			<nav class="header__main-menu">
 				<ul>
 					<li>Home</li>
@@ -62,13 +62,15 @@
 			<section class="header__main-form">
 				<form action="">
 					<input type="text" placeholder="Search..">
-					<button class="header_main-button">
-						
-					</button>
-					<button class="header__main-button">
-
-					</button>
 				</form>
+				<div class="header__main-buttons">
+					<div class="header__main-button">
+						<img src="./static/img/bookmark.png" />
+					</div>
+					<div class="header__main-button">
+						<img src="./static/img/cart_min.png" />
+					</div>
+				</div>
 				<a href="" class="header__main-purchases">
 					Cart (0)
 				</a>
@@ -76,246 +78,306 @@
 		</section>
 	</section>
 	<section class="header__slider">
-		
-		<button class="header__slider-button">
-				
-		</button>
-		<section class="header__slider-text">
-			<p class="header__slider_top-text">
-				Aluminium Club
-			</p>
-			<p class="header__slider_bottom-text">
-				Experience Ray-Ban
-			</p>
-		</section>
-		<button class="header_slider-button">
-				
-		</button>
+			<div class="slider__controls">
+				<div class="slider__control slider__control_prev"></div>
+				<div class="slider__control slider__control_next"></div>
+			</div>
+			<ul class="slider__content">
+				<li class="slider__item">
+					<img src="./static/img/slide.jpg" alt="Изображение слайдера" width="1400" height="637" />
+					<div class="slider__wrapper">
+						<div class="slider__text">
+							<h2 class="slider__header">ALUMINUM CLUB</h2>
+							<h3 class="slider__subheader">Experience Ray-Ban</h3>
+						</div>
+					</div>
+				</li>
+				<li class="slider__item">
+					<img src="./static/img/slide.jpg" alt="Изображение слайдера" width="1400" height="637" />
+					<div class="slider__wrapper">
+						<div class="slider__text">
+							<h2 class="slider__header">ALUMINUM CLUB</h2>
+							<h3 class="slider__subheader">Experience Ray-Ban</h3>
+						</div>
+					</div>
+				</li>
+				<li class="slider__item">
+					<img src="./static/img/slide.jpg" alt="Изображение слайдера" width="1400" height="637" />
+					<div class="slider__wrapper">
+						<div class="slider__text">
+							<h2 class="slider__header">ALUMINUM CLUB</h2>
+							<h3 class="slider__subheader">Experience Ray-Ban</h3>
+						</div>
+					</div>
+				</li>
+			</ul>
 		
 	</section>
 
 	</header>
 
-	<main>
+	<main class="main">
 		<h1 hidden>Каталог</h1>
 		<section class="catalog">
 			<h2>
 				Featured Products
 			</h2>
-		</section>
+		
 
-		<section class="catalog__items">
-			<article class="catalog__item">
-				<div class="catalog__item-label catalog__item-label_new">
-					New
-				</div>
-				<div class="catalog__item-info">
-					<img src="https://via.placeholder.com/216x228" alt="">
-					<p class="catalog__item-description">Lorem Ipsum is simply.</p>
-					<p class="catalog__item-price">$388.00</p>
-				</div>
-				<button	class="catalog__item-button">
-					Положить в корзину
-				</button>
-			</article>
-			<article class="catalog__item">
-				<div class="catalog__item-info">
-					<img src="https://via.placeholder.com/216x228" alt="">
-					<p class="catalog__item-description">Nullam vestibulum.</p>
-					<p class="catalog__item-price">$90.00</p>
-				</div>
-				<button	class="catalog__item-button">
-					Положить в корзину
-				</button>
-			</article>
-			<article class="catalog__item">
-				<div class="catalog__item-label catalog__item-label__sale">
-					Sale
-				</div>
-				<div class="catalog__item-info">
-					<img src="https://via.placeholder.com/216x228" alt="">
-					<p class="catalog__item-description">Donec et lorem suscipit.</p>
-					<p class="catalog__item-price"><s>$460</s>$300.00</p>
-				</div>
-				<button	class="catalog__item-button">
-					Положить в корзину
-				</button>
-			</article>
-			<article class="catalog__item">
-				<div class="catalog__item-info">
-					<img src="https://via.placeholder.com/216x228" alt="">
-					<p class="catalog__item-description">Curabitur pretium dui.</p>
-					<p class="catalog__item-price">$180.00</p>
-				</div>
-				<button	class="catalog__item-button">
-					Положить в корзину
-				</button>
-			</article>
-			<article class="catalog__item">
-				<div class="catalog__item-label catalog__item-label_new">
-					New
-				</div>
-				<div class="catalog__item-info">
-					<img src="https://via.placeholder.com/216x228" alt="">
-					<p class="catalog__item-description">Lorem Ipsum is simply</p>
-					<p class="catalog__item-price">$278.00</p>
-				</div>
-				<button	class="catalog__item-button">
-					Положить в корзину
-				</button>
-			</article>
-			<article class="catalog__item">
-				<div class="catalog__item-info">
-					<img src="https://via.placeholder.com/216x228" alt="">
-					<p class="catalog__item-description">Sed tempus tellus .</p>
-					<p class="catalog__item-price">$378.00</p>
-				</div>
-				<button	class="catalog__item-button">
-					Положить в корзину
-				</button>
-			</article>
-			<article class="catalog__item">
-				<div class="catalog__item-label catalog__item-label_new">
-					New
-				</div>
-				<div class="catalog__item-info">
-					<img src="https://via.placeholder.com/216x228" alt="">
-					<p class="catalog__item-description">Lorem Ipsum is simply </p>
-					<p class="catalog__item-price">$500.00</p>
-				</div>
-				<button	class="catalog__item-button">
-					Положить в корзину
-				</button>
-			</article>
-			<article class="catalog__item">
-				<div class="catalog__item-label catalog__item-label_sale">
-					Sale
-				</div>
-				<div class="catalog__item-info">
-					<img src="https://via.placeholder.com/216x228" alt="">
-					<p class="catalog__item-description">Etiam egestas velit.</p>
-					<p class="catalog__item-price"><s>$460</s> $200.00</p>
-				</div>
-				<button	class="catalog__item-button">
-					Положить в корзину
-				</button>
-			</article>
-			<article class="catalog__item">
-				<div class="catalog__item-label catalog__item-label_new">
-					New
-				</div>
-				<div class="catalog__item-info">
-					<img src="https://via.placeholder.com/216x228" alt="">
-					<p class="catalog__item-description">Mauris viverra magna.</p>
-					<p class="catalog__item-price">$370.00</p>
-				</div>
-				<button	class="catalog__item-button">
-					Положить в корзину
-				</button>
-			</article>
-		</section>
+			<section class="catalog__items">
+				<article class="catalog__item">
+					<div class="ribbon ribbon_new">
+							<div class="ribbon__inner ribbon__inner_new">
+							</div>
+							<span class="ribbon__text">
+								New
+							</span>
+					</div>
+					<img src="./static/img/01.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Lorem Ipsum is simply.<br/>
+						<span class="catalog__item-price">$388.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+					<img src="./static/img/02.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Nullam vestibulum.<br/>
+						<span class="catalog__item-price">$90.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+						<div class="ribbon ribbon_sale">
+							<div class="ribbon__inner ribbon__inner_sale">
+							</div>
+							<span class="ribbon__text">
+								Sale
+							</span>
+						</div>
+					<img src="./static/img/03.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Donec et lorem suscipit.<br/>
+						<span class="catalog__item-price"><s>$460</s>$300.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+					<img src="./static/img/04.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Curabitur pretium dui.<br/>
+						<span class="catalog__item-price">$180.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+					<img src="./static/img/05.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Lorem Ipsum is simply<br/>
+						<span class="catalog__item-price">$278.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+					<img src="./static/img/06.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Sed tempus tellus .<br/>
+						<span class="catalog__item-price">$378.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+					<div class="ribbon ribbon_new">
+							<div class="ribbon__inner ribbon__inner_new">
+							</div>
+							<span class="ribbon__text">
+								New
+							</span>
+					</div>
+					<img src="./static/img/07.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Lorem Ipsum is simply<br/>
+						<span class="catalog__item-price">$500.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+						<div class="ribbon ribbon_sale">
+							<div class="ribbon__inner ribbon__inner_sale">
+							</div>
+							<span class="ribbon__text">
+								Sale
+							</span>
+						</div>
+					<img src="./static/img/08.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Etiam egestas velit.<br/>
+						<span class="catalog__item-price"><s>$460</s>$200.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+					<div class="ribbon ribbon_new">
+						<div class="ribbon__inner ribbon__inner_new">
+							</div>
+							<span class="ribbon__text">
+								New
+							</span>
+					</div>
+					<img src="./static/img/09.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Mauris viverra magna.<br/>
+						<span class="catalog__item-price">$370.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				
+			</section>
 
-		<section class="catalog">
-			<h2>
-				Staff Pick
-			</h2>
-		</section>
+			
+				<h2>
+					Staff Pick
+				</h2>
+			
 
-		<section class="catalog__items">
-			<article class="catalog__item">
-				<div class="catalog__item-label catalog__item-label_new">
-					New
-				</div>
-				<div class="catalog__item-info">
-					<img src="https://via.placeholder.com/216x228" alt="">
-					<p class="catalog__item-description">Lorem Ipsum is simply</p>
-					<p class="catalog__item-price">$378.00</p>
-				</div>
-				<button	class="catalog__item-button">
-					Положить в корзину
-				</button>
-			</article>
-			<article class="catalog__item">
-				<div class="catalog__item-info">
-					<img src="https://via.placeholder.com/216x228" alt="">
-					<p class="catalog__item-description">Mauris viverra magna.</p>
-					<p class="catalog__item-price">$278.00</p>
-				</div>
-				<button	class="catalog__item-button">
-					Положить в корзину
-				</button>
-			</article>
-			<article class="catalog__item">
-				<div class="catalog__item-label catalog__item-label_new">
-					New
-				</div>
-				<div class="catalog__item-info">
-					<img src="https://via.placeholder.com/216x228" alt="">
-					<p class="catalog__item-description">Curabitur pretium dui.</p>
-					<p class="catalog__item-price">$188.00</p>
-				</div>
-				<button	class="catalog__item-button">
-					Положить в корзину
-				</button>
-			</article>
-		</section>
+			<section class="catalog__items">				
+				<article class="catalog__item">
+						<div class="ribbon ribbon_new">
+							<div class="ribbon__inner ribbon__inner_new">
+							</div>
+								<span class="ribbon__text">
+									New
+								</span>
+						</div>
+						<img src="./static/img/09.jpg" alt="">
+						<div class="catalog__item-info">
+						<p class="catalog__item-description">Lorem Ipsum is simply<br/>
+						<span class="catalog__item-price">$378.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+						</div>
+				</article>
+				<article class="catalog__item">
+					<img src="./static/img/05.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Mauris viverra magna.<br/>
+						<span class="catalog__item-price">$278.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+						<div class="ribbon ribbon_new">
+							<div class="ribbon__inner ribbon__inner_new">
+							</div>
+							<span class="ribbon__text">
+								New
+							</span>
+						</div>
+					<img src="./static/img/03.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Curabitur pretium dui.<br/>
+						<span class="catalog__item-price">$188.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+			</section>
 
-		<section class="catalog">
-			<h2>
-				New Products
-			</h2>
-		</section>
+			
+				<h2>
+					New Products
+				</h2>
+			
 
-		<section class="catalog__items">
-			<article class="catalog__item">
-				<div class="catalog__item-label catalog__item-label_new">
-					New
-				</div>
-				<div class="catalog__item-info">
-					<img src="https://via.placeholder.com/216x228" alt="">
-					<p class="catalog__item-description">Sed tempus tellus.</p>
-					<p class="catalog__item-price">$90.00</p>
-				</div>
-				<button	class="catalog__item-button">
-					Положить в корзину
-				</button>
-			</article>
-			<article class="catalog__item">
-				<div class="catalog__item-label catalog__item-label_new">
-					New
-				</div>
-				<div class="catalog__item-info">
-					<img src="https://via.placeholder.com/216x228" alt="">
-					<p class="catalog__item-description">Nulla accumsan lect.</p>
-					<p class="catalog__item-price">$60.00</p>
-				</div>
-				<button	class="catalog__item-button">
-					Положить в корзину
-				</button>
-			</article>
-			<article class="catalog__item">
-				<div class="catalog__item-label catalog__item-label_new">
-					New
-				</div>
-				<div class="catalog__item-info">
-					<img src="https://via.placeholder.com/216x228" alt="">
-					<p class="catalog__item-description">Lorem Ipsum is simply</p>
-					<p class="catalog__item-price">$378.00</p>
-				</div>
-				<button	class="catalog__item-button">
-					Положить в корзину
-				</button>
-			</article>
-		</section>
+			<section class="catalog__items">
+				<article class="catalog__item">
+					<div class="ribbon ribbon_new">
+						<div class="ribbon__inner ribbon__inner_new">
+							</div>
+							<span class="ribbon__text">
+								New
+							</span>
+					</div>
+					<img src="./static/img/06.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Sed tempus tellus.<br/>
+						<span class="catalog__item-price">$90.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+					<div class="ribbon ribbon_new">
+						<div class="ribbon__inner ribbon__inner_new">
+							</div>
+							<span class="ribbon__text">
+								New
+							</span>
+					</div>
+					<img src="./static/img/03.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Nulla accumsan lect.<br/>
+						<span class="catalog__item-price">$60.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+				<article class="catalog__item">
+					<div class="ribbon ribbon_new">
+						<div class="ribbon__inner ribbon__inner_new">
+							</div>
+							<span class="ribbon__text">
+								New
+							</span>
+					</div>
+					<img src="./static/img/04.jpg" alt="">
+					<div class="catalog__item-info">
+						<p class="catalog__item-description">Lorem Ipsum is simply<br/>
+						<span class="catalog__item-price">$378.00</p>
+						<div class="catalog__item-button">
+							<img src="./static/img/cart.png" />
+						</div>
+					</div>
+				</article>
+			</section>
 
+			
+		</section>
 		<section class="sidebar">
 			<section class="sidebar__banner">
 				<h2>
 					Featured<br/>Glass
 				</h2>
-				<a href="" class="sidebar__banner_button">
-					Check It Out
-				</a>
+				<div class="sidebar__banner-image">
+					<a href="" class="sidebar__banner_button">
+						Check It Out
+					</a>					
+				</div>
 			</section>
 			<section class="sidebar__subscribe">
 				<h2>
