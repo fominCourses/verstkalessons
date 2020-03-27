@@ -1,0 +1,31 @@
+body { margin: 0 }
+
+.header_menu{
+    height:50px;
+    background:#4cb1ca;
+}
+.page_menu{
+    height:100px;
+    background: #ffffff;
+}
+.header_banner{
+    height: 470px;
+}
+.container{
+    height: 2020px;
+    padding-left: 190px;
+    padding-right: 190px;
+    margin:0 auto;
+}
+.calls{
+    height: 110px;
+    background: #4cb1ca;
+}
+.socials{
+    height: 340px;
+    background: #39a0b9;
+}
+.copyright{
+    height: 60px;
+    background: #0b4b5a;
+}
