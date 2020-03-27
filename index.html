@@ -1,46 +1,222 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<link rel="stylesheet" href="assets/styles/style.css">
-	</head>
-	<body>
-		<header class="header">
-			<section class="header_menu">
 
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="assets/styles/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+	<title>LEO SHOP</title>
+</head>
 
+<body>
+	<header class="header">
+		<section class="header_headline">
+			<div class="container container-top">
+
+				<form action="" class="herder_form">
+					<label for="lang">
+						Language
+					</label>
+					<select name="lanf" id="lang">
+						<option value="">ENG</option>
+						<option value="">RUS</option>
+					</select>
+					<label for="curr">Currency</label>
+					<select name="curr" id="curr">
+						<option value="">USD</option>
+						<option value="">RUR</option>
+					</select>
+				</form>
+				<nav class="headline_menu">
+					<a href="" class="headline_menu-item">Account</a>
+					<a href="" class="headline_menu-item">Wishlist</a>
+					<a href="" class="headline_menu-item">Checkout</a>
+					<a href="" class="headline_menu-item">Log In </a>
+					<a href="" class="headline_menu-item">Sign Up</a>
+				</nav>
+			</div>
+		</section>
+		<section class="header_main">
+			<div class="container container-top">
+				<h1 class="logo">LEO SHOP</h1>
+				<nav class="header_main-items">
+					<a href="" class="header_main-item">HOME</a>
+					<a href="" class="header_main-item">WOMEN</a>
+					<a href="" class="header_main-item">MEN</a>
+					<a href="" class="header_main-item">OTHER</a>
+					<a href="" class="header_main-item">PURCHASE</a>
+				</nav>
+				<div class="header_main-right">
+					<div class="input">
+						<input type="text" name="search" placeholder="Search..." class="search">
+						<img src="assets/images/search.png" alt="" class="lens">
+					</div>
+					<a href="" class="lable">
+						<img src="assets/images/lable.png" alt="">
+					</a>
+					<a href="" class="basket">
+						<img src="assets/images/basket.png" alt="">
+					</a>
+					<p class="basket-item">CART (0)</p>
+				</div>
+			</div>
+		</section>
+		<section class="header_slider">
+			<section class="header_logo">
+				<img src="assets\images\header_baner.png" alt="">
+				<button class="logo_button logo_button-left">
+					<img src="assets\images\buttonleft.png" alt="">
+				</button>
+				<button class="logo_button logo_button-right">
+					<img src="assets\images\buttonright.png" alt="">
+				</button>
 			</section>
-			<section class="page_menu">
-
-			</section>
-				
-			<section class="header_banner">
-				<img src="assets\images\header_baner.png" alt="огромный банер">
-
-			</section>
-		</header>
-
+		</section>
+	</header>
+	<main class="main">
 		<div class="container">
-			<section class="products">
-
-			</section>
-			<section class="sidebar">
-
-			</section>
+			<div class="main_container">
+				<section class="products">
+					<h2 class="product-name">FEATURED PRODUCTS</h2>
+					<div class="featuder-products">
+						<div class="product">
+							<img src="assets\images\product1.png" alt="" class="product-img">
+						</div>
+						<div class="product">
+							<img src="assets\images\product2.png" alt="" class="product-img">
+						</div>
+						<div class="product">
+							<img src="assets\images\product3.png" alt="" class="product-img">
+						</div>
+						<div class="product">
+							<img src="assets\images\product4.png" alt="" class="product-img">
+						</div>
+						<div class="product">
+							<img src="assets\images\product5.png" alt="" class="product-img">
+						</div>
+						<div class="product">
+							<img src="assets\images\product6.png" alt="" class="product-img">
+						</div>
+						<div class="product">
+							<img src="assets\images\product7.png" alt="" class="product-img">
+						</div>
+						<div class="product">
+							<img src="assets\images\product8.png" alt="" class="product-img">
+						</div>
+						<div class="product">
+							<img src="assets\images\product9.png" alt="" class="product-img">
+						</div>
+					</div>
+					<h2 class="product-name">STAFF PICK</h2>
+					<div class="staff-pick">
+						<div class="product">
+							<img src="assets\images\product9.png" alt="" class="product-img">
+						</div>
+						<div class="product">
+							<img src="assets\images\product5.png" alt="" class="product-img">
+						</div>
+						<div class="product">
+							<img src="assets\images\product3.png" alt="" class="product-img">
+						</div>
+					</div>
+					<h2 class="product-name">NEW PRODUCTS</h2>
+					<div class="new-product">
+						<div class="product">
+							<img src="assets\images\product7.png" alt="" class="product-img">
+						</div>
+						<div class="product">
+							<img src="assets\images\product3.png" alt="" class="product-img">
+						</div>
+						<div class="product">
+							<img src="assets\images\product4.png" alt="" class="product-img">
+						</div>
+					</div>
+				</section>
+				<section class="sidebar">
+					<div class="sidebar_banner">
+						<h4 class="sidebar_text sidebar_text-banner">FEATURED <br> GLASS</h4>
+						<img src="assets/images/sidebarbanner.png" alt="" class="sidebar_banner-img">
+						<div class="sidebar-ellipse">
+							<img src="assets/images/ellipseblue.png" alt="" class="ellipse">
+							<img src="assets/images/ellipsegreen.png" alt="" class="ellipse">
+							<img src="assets/images/ellipsegreen.png" alt="" class="ellipse">
+						</div>
+					</div>
+					<div class="sidebar_subscribe">
+						<h4 class="sidebar_text">NEWSLETTERS <br> SIGNUP</h4>
+						<h5 class="sidebar_about">Lorem ipsum dolor sit amen, <br> dolor imun ra adlip</h5>
+						<div class="subscribe">
+							<input type="email" class="subscribe-input">
+							<button class="subscribe-button">Subscribe</button>
+						</div>
+					</div>
+				</section>
+			</div>
 		</div>
-		<footer class="footer">
-			<section class="calls">
+	</main>
+	<footer class="footer">
+		<section class="footer-top">
+			<div class="container">
+				<div class="footer-top_item">
+					<div class="shipping">
+						<img src="assets\images\shipping.png" alt="" class="shipping_img">
+						<h4 class="shipping_text">FREE SHIPPING ON ORDERS OVER $100</h4>
+					</div>
+					<div class="calls">
+						<img src="assets\images\calls.png" alt="" class="calls_img">
+						<h4 class="calls_text">CALL US! TOLL FREE-409-8888-0099 </h4>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="footer-middle">
+			<div class="container">
+				<div class="footer-middle_item">
+					<section class="facebook">
+						<h4 class="facebook_title">FACEBOOK</h4>
+						<p class="facebook_text">20000 Members</p>
+						<img src="assets\images\facebooklogo.png" alt="" class="facebook_logo">
+						<div class="facebook_faces">
+							<img src="assets\images\face1.png" alt="" class="facebook_faces-face">
+							<img src="assets\images\face2.png" alt="" class="facebook_faces-face">
+							<img src="assets\images\face3.png" alt="" class="facebook_faces-face">
+							<img src="assets\images\face4.png" alt="" class="facebook_faces-face">
+							<img src="assets\images\face5.png" alt="" class="facebook_faces-face">
+							<img src="assets\images\face6.png" alt="" class="facebook_faces-face">
+							<img src="assets\images\face7.png" alt="" class="facebook_faces-face">
+							<img src="assets\images\face8.png" alt="" class="facebook_faces-face">
+						</div>
+					</section>
+					<section class="twitter">
+						<h4 class="twitter_title">FROM TWITTER</h4>
+					</section>
+					<section class="information">
+						<h4 class="information_title">IFIRMATION</h4>
+					</section>
+					<section class="contact">
+						<h4 class="contact_title">CONTACT US</h4>
+					</section>
+				</div>
+			</div>
+		</section>
+		<section class="footer-bottom">
+			<div class="container container-bottom">
+				<div class="copyright_text">
+					© Copyright 2013 Css Author, All Rights Reserved.
+				</div>
+				<div class="footer-bottom_links">
+					<a href="" class="footer-bottom-text">About Us</a>
+					<a href="" class="footer-bottom-text">Delivery & Returns</a>
+					<a href="" class="footer-bottom-text">Terms & Conditions</a>
+					<a href="" class="footer-bottom-text">Contuct Us</a>
+				</div>
+			</div>
+		</section>
+	</footer>
 
-			</section>
-			<section class="socials">
 
-			</section>
-			<section class="copyright">
+</body>
 
-			</section>
-		</footer>
-	</body>
-	
 </html>
